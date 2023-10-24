@@ -1,0 +1,48 @@
+name: livreur
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version:
+
+environment:
+  sdk: '>=2.18.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints:
+  get:
+  flutter_screenutil:
+  auto_size_text:
+  flutter_advanced_switch:
+  im_stepper:
+  flutter_chat_ui:
+  url_launcher:
+  eva_icons_flutter:
+  lottie:
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - Assets/
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+     - family: Golos
+       fonts:
+         - asset: Assets/fonts/GolosUI_Regular.ttf
+
+
